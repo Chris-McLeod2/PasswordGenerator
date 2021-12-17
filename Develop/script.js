@@ -22,7 +22,6 @@ console.log("Length of password " + passwordLength)
    console.log("lowercase char confirmed")
 
    generatedCharacters += lowercase;
-
  };
 
  var passwordUppercase = window.confirm ("would you like your password to contain uppercase?");
@@ -34,7 +33,6 @@ console.log("Length of password " + passwordLength)
  var numberCharacters = window.confirm ("would you like your password to contain numbers?");
 if (numberCharacters === true) {
   console.log ("numbers confirmed")
-
   generatedCharacters += number;
 }
 var specialCharacters = window.confirm ("would you like your password to contain special characters?");
@@ -45,7 +43,7 @@ if (specialCharacters === true) {
 }
 var randomPassword = "";
 
-for (var i = 0; i < length; i++) {
+  for (var i = 0; i < passwordLength; i++) {
     randomPassword += generatedCharacters[Math.floor(Math.random() * generatedCharacters.length)];
   }
   console.log("The random password is " + randomPassword);
