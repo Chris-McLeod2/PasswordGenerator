@@ -18,6 +18,6 @@
 <p>CSS</p>
 
  <h2> Deployable Link</h2>
-https://chris-mcleod2.github.io/Portfolio/
+https://chris-mcleod2.github.io/PasswordGenerator/
 <h2> Github Link </h2>
 https://github.com/Chris-McLeod2/PasswordGenerator 
