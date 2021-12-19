@@ -5,7 +5,7 @@
 
 
 <h2>Screenshot of the Generator Landing page</h2>
- <img src="./develop/PasswordLanding.png"/>
+ <img src="PasswordLanding.png"/>
 
 <p> When the user clicks generate they are given a few promts on the top of the screen asking them what they would like included in their passwordd and then the password is shown in the box </p>
 
