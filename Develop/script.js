@@ -10,8 +10,8 @@ function generatePassword() {
 
   var generatedCharacters = "";
 
-  var passwordLength = window.prompt("Enter amount of characters you would like in your password between 6 and 50");
-  if (passwordLength < 6 || length > 50) {
+  var passwordLength = window.prompt("Enter amount of characters you would like in your password between 8 and 128");
+  if (passwordLength < 8 || length > 128) {
     window.alert("length of password does not meet requirements");
     return null;
 
